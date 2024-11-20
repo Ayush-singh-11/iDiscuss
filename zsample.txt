@@ -1,0 +1,14 @@
+        <div class="jumbotron">
+            <h1 class="display-4 "><?php echo $title; ?></h1>
+            <p class="lead"><?php echo $desc; ?></p>
+            <hr class="my-4">
+            <p>
+                This is peer to peer forum.
+                <br>No Spam / Advertising / Self-promote in the forums is not allowed.
+                <br>Do not post copyright-infringing material.
+                <br>Do not post “offensive” posts, links or images.
+                <br>Do not cross post questions.
+                <br>Remain respectful of other members at all times.
+            </p>
+            <p>Posted By: <em><?php echo $posted_by; ?></em></p>
+        </div>
